@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @Log4j2
 public class BasicPracticeApplication {
-  public static void main(String[] args) {
-
-    SpringApplication.run(BasicPracticeApplication.class, args);
-    log.info("Application started successfully");
-  }
-
+    public static void main(String[] args) {
+        
+        SpringApplication.run(BasicPracticeApplication.class, args);
+        log.info("Application started successfully");
+    }
+    
 }

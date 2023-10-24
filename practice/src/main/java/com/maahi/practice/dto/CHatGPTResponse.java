@@ -10,14 +10,14 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class CHatGPTResponse {
-
-  private List<Choices> choices;
-
-  @Data
-  @NoArgsConstructor
-  @AllArgsConstructor
-  public static class Choices {
-    private int index;
-    private Message message;
-  }
+    
+    private List<Choices> choices;
+    
+    @Data
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class Choices {
+        private int index;
+        private Message message;
+    }
 }

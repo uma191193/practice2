@@ -8,6 +8,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Message {
-  private String role; //Who is using either user or assistant ?
-  private String content; //What you are searching for ? can be called as "Prompt" also.
+    private String role; //Who is using either user or assistant ?
+    private String content; //What you are searching for ? can be called as "Prompt" also.
 }
